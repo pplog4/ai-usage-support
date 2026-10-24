@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>AI Usage サポート</title>
+  <style>
+    :root{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif;line-height:1.7;color:#17211d;background:#f3f7f5}body{margin:0}main{max-width:760px;margin:auto;padding:48px 22px 72px}article{background:#fff;border:1px solid #dbe6e0;border-radius:22px;padding:30px;box-shadow:0 12px 36px #1633260d}h1{font-size:2rem;margin:0 0 8px}h2{font-size:1.2rem;margin:34px 0 8px}p,li{max-width:68ch}a{color:#087a55}nav{display:flex;gap:18px;flex-wrap:wrap;margin:18px 0 28px}.note{padding:14px 16px;border-radius:12px;background:#eaf7f1}.muted{color:#5b6862;font-size:.92rem}@media(prefers-color-scheme:dark){:root{color:#edf5f1;background:#101713}article{background:#17211c;border-color:#2d3d35}.note{background:#203d31}a{color:#68ddb3}.muted{color:#aebbb5}}
+  </style>
+</head>
+<body>
+<main>
+  <article>
+    <h1>AI Usage サポート</h1>
+    <p>AI Usageは、複数のAIサービスの使用量をiPhoneとWidgetで見やすく確認するための非公式アプリです。各AIサービスの提供会社とは提携していません。</p>
+    <nav aria-label="ページ内リンク">
+      <a href="#start">使い始める</a><a href="#subscription">料金</a><a href="#update">データ更新</a><a href="#contact">問い合わせ</a><a href="privacy.html">プライバシー</a>
+    </nav>
+
+    <h2 id="start">使い始める</h2>
+    <ol>
+      <li>まずアプリの「サンプルで表示を確認」で、匿名データの一覧・詳細・Widget表示を確認できます。</li>
+      <li>実際の使用量を表示するには、アプリの案内に従ってPC補助またはSafari手動同期を設定します。</li>
+      <li>Widgetはホーム画面を長押しし、「編集」からAI Usageを追加します。</li>
+    </ol>
+    <p class="note">サンプルは実アカウントへ接続せず、購入状態も変更しません。終了すると、変更していない実データの表示へ戻ります。</p>
+
+    <h2 id="subscription">料金と購入</h2>
+    <ul>
+      <li>無料版: 利用するアカウントを最大2件選択</li>
+      <li>有料版: 保存済みアカウントを件数制限なく利用</li>
+      <li>月額480円、年額2,980円（同じ機能。App Storeの購入画面に表示される価格と条件を確定前にご確認ください）</li>
+    </ul>
+    <p>AI Usageの料金に、ChatGPT、Claude、Geminiなど各AIサービスの契約料金は含まれません。各サービスの契約は利用者が別途管理します。購入済みなのに無料版と表示される場合は、設定 → プラン →「購入を復元」をお試しください。</p>
+
+    <h2 id="update">使用量が更新されないとき</h2>
+    <p>PC補助による新しい取得は、設定済みのPCと収集処理が動作している間だけ行われます。PC停止中や通信できない間、アプリは最後に正常取得した値と取得時刻を表示し、0%や最新値へ推測更新しません。</p>
+    <ul>
+      <li>アプリとWidgetに表示された「取得」時刻を確認してください。</li>
+      <li>PC補助を使う場合はPCが起動し、設定した収集処理が動いているか確認してください。</li>
+      <li>Safari手動同期のアカウントは、対象サービスの使用量ページをSafariで表示し、AI Usage拡張から同期してください。</li>
+      <li>各AIサービスの画面や仕様変更により、取得できないことがあります。</li>
+    </ul>
+
+    <h2 id="contact">問い合わせ</h2>
+    <p><a href="https://github.com/pplog4/ai-usage-support/issues">GitHub Issuesで問い合わせる</a></p>
+    <p class="note">Issuesは公開されます。メールアドレス、氏名、ログイン情報、Cookie、接続用の秘密、購入明細などの機密情報は投稿しないでください。</p>
+    <p>不具合の場合は、アプリのバージョン、端末・iOSのバージョン、表示された一般的なエラーメッセージ、再現手順だけを記載してください。</p>
+
+    <h2>関連文書</h2>
+    <p><a href="privacy.html">プライバシーポリシー</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple標準利用規約（EULA）</a></p>
+    <p class="muted">最終更新: 2026年10月24日</p>
+  </article>
+</main>
+</body>
+</html>
